@@ -1,0 +1,91 @@
+body{
+    
+    background-image:url(../img/2880x1620-5429530-programming-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 100%;
+    min-width: 420px;
+}
+
+section{
+    display: none;
+}
+
+section .container{
+    
+    background-color:rgba(0,0,0,.3);
+    max-width: 350px;
+    max-height: 350px;
+    margin-top:125px;
+    color: white;
+    
+}
+
+
+section .icons-link {
+    margin-top: -25px;
+    float: right;
+    color:#135569;
+    white-space:2px;
+}
+
+
+section .icons-link i{
+    border:3px solid #d3e0b4;
+    border-radius: 5px;
+    background-color: #d3e0b4 ;
+    color:#135569 ;
+}
+
+section h2{
+    float: left;
+    color: white;
+    font-family: monospace;
+    margin-bottom: 30px;
+}
+
+form{clear: both;}
+
+section button{
+    width: 100px;
+    background-color:#135569;
+    margin-top: 20px;
+}
+
+section button:hover{
+   color:white;
+   border:1px solid yellow; 
+    background-color:darkgray;
+}
+
+section .end-form{
+    margin-top: 80px;
+}
+
+#myModal > div > div{
+    background-color: #135569;
+    color: white;
+}
+
+.modal-header .close{
+    color: white;
+}
+
+.modal-footer button:hover{
+    background-color: silver;
+}
+
+#pop button{
+    background-color:#135569; 
+}
+
+#pop button:hover{
+      background-color: darkgrey;
+}
+#user, #password, #rem, #login{
+    display: none;
+}
+
+.end-form:hover{
+  cursor: pointer;
+}

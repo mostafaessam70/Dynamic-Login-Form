@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>login</title>
+  
+ <meta charset="utf-8"> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <!-- custome styles -->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+ 
+</head>
+
+<body>
+                
+    
+    <!--main form -->
+<section id="show">
+  <div class="user-login ">
+    <div class="container text-center ">
+        
+        <!-- top icons-->
+        <div class="icons-link">
+          <i class="fab fa-facebook-square fa-3x"></i></a>
+           <a href="#"><i class="fab fa-google-plus-square fa-3x"></i></a>
+
+           <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+
+           <!-- <a href="#" class="pop-container">
+            <i class="fab fa-twitter-square fa-3x"></i>
+               <span class="arrow"></span>
+              
+               <div id="pop">
+                   <p>Are you Sure About This Info ?</p>
+                   <button id="verfy" type="button" class="btn btn-primary">Yes</button>
+                   <button id="verfy_" type="button" class="btn btn-primary">No</button>
+               </div>
+           </a> -->
+         </div>
+        
+        <h2><span class="fa fa-sign-in"> Sign In</span></h2>
+        
+         <!--inputs-->
+        <form>   
+          <div id="user" class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-user fa-2x"></i></span>
+              <input type="text" class="form-control input-lg" placeholder="User Name"> 
+            </div>
+          </div>
+            
+          <div id="password" class="form-group">
+             <div class="input-group">
+               <span class="input-group-addon"><i class="fa fa-lock fa-2x"></i></span>
+               <input type="password" class="form-control input-lg" placeholder="Password"> 
+             </div>
+          </div>
+            
+           <i id="rem" style="float:left"><input type="checkbox" name="Remember Me" >Remember Me</i><br>   
+           <button  id="login" type="button" class="btn" style="float: right" data-toggle="modal" data-target="#myModal">Login</button><br>
+            
+        </form>
+        
+
+        <div class="end-form">
+         <p>Dont Have Any Account ?<a style="color:#139569"> Sign Up</a></p>
+        </div>
+    </div>  
+  </div>    
+</section>  <!--End section -->
+    
+<!-- configration model -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Confirme</h4>
+         </div>
+
+         <div class="modal-body text-center">
+             <p>Are you Sure About This Info ?</p>
+         </div>
+
+        <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+           <button type="button" class="btn btn-default" data-dismiss="modal">Yes</button>
+        </div>
+        
+     </div>
+  </div>
+</div>
+          <!-- notfication sound-->   
+     <audio id="addsound">
+         <source src="sounds/iphone%20notfication.mp3" type="audio/mp3">
+     </audio> 
+    
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+       <!-- custome js -->
+     <script src="j.s/javascript.js"></script>
+
+</body>
+</html>
